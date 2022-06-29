@@ -115,6 +115,11 @@ function App() {
         <Form.Item
           label="标签" 
           name="tags"
+          rules={[
+            {
+              required: true,
+            }
+          ]}
         >
           <Checkbox.Group options={options} />
         </Form.Item>
