@@ -14,7 +14,7 @@ module.exports = {
           //   chunkFilename: 'static/js/[name].js'
           // },
           path: path.resolve(__dirname, 'docs'), // 修改输出文件目录
-          publicPath: 'show-job-fine'
+          publicPath: '/show-job-fine'
       }
       return webpackConfig
     }
