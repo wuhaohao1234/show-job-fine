@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/pro-components": "^1.1.6",
     "@craco/craco": "^6.4.3",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -15,9 +16,9 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-   "start": "craco start",
-   "build": "craco build",
-   "test": "craco test"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": [
